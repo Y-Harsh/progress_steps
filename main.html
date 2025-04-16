@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,6 +20,42 @@
 
         <button class="btn" id="prev" disabled>Prev</button>
         <button class="btn" id="next">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Progress Steps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="theme-toggle" id="theme-toggle" title="Toggle theme">🌓</div>
+    <div class="container">
+        <div class="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="circle active" data-step="1">1</div>
+            <div class="circle" data-step="2">2</div>
+            <div class="circle" data-step="3">3</div>
+            <div class="circle" data-step="4">4</div>
+        </div>
+        <p id="step-count">Step 1 of 4</p>
+        <p id="status">You are at the beginning.</p>
+        <div class="buttons">
+            <button id="prev">Prev</button>
+            <button id="reset">Reset</button>
+            <button id="next">Next</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
